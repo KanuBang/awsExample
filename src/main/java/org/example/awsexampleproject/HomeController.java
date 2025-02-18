@@ -12,7 +12,7 @@ public class HomeController {
         return ResponseEntity.ok().body("hello world");
     }
 
-    @GetMapping("/healtCheck")
+    @GetMapping("/health")
     public ResponseEntity<String> health() {
         return ResponseEntity.ok().body("health check");
     }
